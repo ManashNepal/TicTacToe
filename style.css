@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #242F40;
+  text-align: center;
+}
+
+.heading{
+  margin-top: 5px;
+  font-size: 3rem;
+  color: #CCA43B;
+}
+
+.container{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game{
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box{
+  height: 18vmin;
+  width: 18vmin;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0,0,0,0.7);
+  font-size: 8vmin;
+  background-color: #E5E5E5;
+  color: #363636;
+}
+
+#reset{
+  border-radius: 0.3rem;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  background-color: #CCA43B;
+  color: #1C0B19;
+  font-family: Ubuntu;
+  font-weight: 700;
+}
