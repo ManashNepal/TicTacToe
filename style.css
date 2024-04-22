@@ -8,7 +8,8 @@ body{
   text-align: center;
 }
 
-.heading{
+.heading,
+.message{
   margin-top: 5px;
   font-size: 3rem;
   color: #CCA43B;
@@ -37,12 +38,14 @@ body{
   border: none;
   border-radius: 1rem;
   box-shadow: 0 0 1rem rgba(0,0,0,0.7);
-  font-size: 8vmin;
+  font-size: 9vmin;
   background-color: #E5E5E5;
   color: #363636;
+  cursor: pointer;
 }
 
-#reset{
+#reset-btn,
+#new-btn{
   border-radius: 0.3rem;
   border: none;
   padding: 0.5rem;
@@ -50,5 +53,29 @@ body{
   background-color: #CCA43B;
   color: #1C0B19;
   font-family: Ubuntu;
-  font-weight: 700;
+  font-weight: 7  00;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  transition: all 0.15s;
 }
+
+#reset-btn:hover,
+#new-btn:hover{
+  opacity: 0.8;
+}
+
+
+
+.victory-msg{
+  height: 100vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;  
+}
+
+.hidden{
+  display: none;
+}
+
